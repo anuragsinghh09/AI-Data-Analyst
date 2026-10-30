@@ -1,0 +1,5 @@
+Order_ID,City,Product,Category,Quantity,Price,Rating,Payment_Mode
+SAMPLE-001,North,Item A,General,2,25.00,4.5,Card
+SAMPLE-002,South,Item B,General,1,18.50,4.0,Cash
+SAMPLE-003,North,Item C,Accessories,3,7.25,4.8,Online
+SAMPLE-004,West,Item A,General,1,25.00,4.2,Card

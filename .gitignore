@@ -1,0 +1,46 @@
+# .gitignore for AI Data Analyst
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+
+# Streamlit secrets and environment variables
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and output (keep only safe sample data)
+sales_data.csv
+
+# Local backup of the superseded application
+app_backup.py
+
+# Backup or temp files
+*.bak
+*.tmp
+~$*
+
+# Do not ignore these example/template files!
+!.streamlit/secrets.toml.example
