@@ -1,5 +1,7 @@
 # AI Data Analyst
 
+Repository: AI-Data-Analyst
+
 AI Data Analyst is a Streamlit application for exploring CSV data through dataset summaries, interactive charts, and natural-language questions. Supported questions are analyzed locally with Pandas; Google Gemini can optionally interpret questions that the local analysis does not recognize.
 
 ## Problem Statement
